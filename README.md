@@ -1,6 +1,10 @@
-This project encodes the data of:
+# About
+
+This project encodes the country data from:
 http://download.geonames.org/export/dump/countryInfo.txt
 into a Kotlin enum.
+
+This enum can be used to access a range of information about various countries.
 
 This project has 2 parts:
 - The parser, which reads the original TSV file and writes the enum class: `WorldDataParser.kt`
